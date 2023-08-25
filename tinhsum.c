@@ -9,11 +9,12 @@ int main(){
     	printf("Diem khong hop le");
     }
 
-	else{
+    else{
         Sum = 2*T + 2*V + A;
         if(Sum >= 40){
             printf("Pass");
-        }else{
+        }
+    	else{
             printf("Fail");
         }
     }
